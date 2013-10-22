@@ -1,4 +1,4 @@
-Exercice 6
+Exercice_06: Contacts manager
 ==========
 
 By: Khachiaa hicham
