@@ -1,0 +1,12 @@
+#################
+## Dart
+#################
+
+.DS_Store
+packages
+.project
+pubspec.lock
+*.js
+*.js.deps
+*.js.map
+*.~

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Contacts Manager</title>
+    <link rel="stylesheet" href="exercice_06.css">
+  </head>
+ 
+  <body>
+    <header><h1>Contacts Manager</h1></header>   
+    <p id="text"></p>
+    
+    <label id=repertoire></label></br>
+    
+    
+    
+    <form name="contact" autocomplete>
+      <h1> Manage your contacts </h1><br>
+      
+      <table class="auto-style1">
+          <tr>
+            <td class="auto-style2"><b>Name:</b></td> <td>      </td>
+            <td><input id="name" type="tel" required autofocus /></td>
+          </tr>
+          <tr>
+            <td class="auto-style2"><b>Phone:</b></td><td>      </td>
+            <td><input id="phone" type="tel" required placeholder="000-000-0000"
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"/></td>
+          </tr>
+          <tr>
+            <td class="auto-style2">
+              <b>Email:</b><td>      </td>
+            </td>
+            <td>
+              <input id="email" type="email" required/>
+            </td>
+          
+          <tr>
+            <td colspan="2">
+              <label id="error">error text</label>
+            </td>
+          </tr>              
+      </table><br>
+      <br>
+      <br>
+      <button type= value="" id="btn_create" class="btns">Create / update a contact</button>
+       <button value="" id="btn_remove" class="btns">Delete a contact</button>
+        <button value="" id="btn_other" class="btns">Reset</button>
+    </form>
+    
+    <script type="application/dart" src="exercice_06.dart"></script>
+    <!-- for this next line to work, your pubspec.yaml file must have a dependency on 'browser' -->
+    <script src="packages/browser/dart.js"></script>
+  </body>
+</html>

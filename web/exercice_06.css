@@ -1,0 +1,74 @@
+body {
+  background-color: #58D3F7;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 1.2em;
+  margin: 10px;
+  padding: 20px;
+}
+
+form {
+  margin-left: auto;
+    margin-right: auto;
+    width: 6em
+  background: #0080FF;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+  padding: 100px;
+  width: 500px;
+}
+
+h1, p {
+  
+ text-align: center;
+}
+
+.auto-style1 {
+  margin-left: auto;
+    margin-right: auto;
+    width: 6em
+  width: 40%;
+  border: 2px solid #0000FF;
+}
+
+.auto-style2 {
+  width: 107px;
+ }
+
+#name, #email, #number, #balance, #pin_code {
+  background : #CEECF5
+  width: 155px;
+}
+
+
+
+.btns {
+    display:block;
+    float:left;
+    margin:0 7px 0 0;
+    background-color:#f5f5f5;
+    border:1px solid #dedede;
+    border-top:1px solid #eee;
+    border-left:1px solid #eee;    font-family:"Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+    font-size:100%;
+    line-height:130%;
+    text-decoration:none;
+    font-weight:bold;
+    color:#565656;
+    cursor:pointer;
+    padding:5px 10px 6px 7px; /* Links */
+    
+}
+
+input {
+  display: block;
+  border: 1px solid #cccccc;
+}
+
+:required {
+  border-color: #1be032;
+  box-shadow:
+    0 0 5px rgba(57, 237, 78, .5);
+}

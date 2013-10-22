@@ -1,0 +1,5 @@
+name: exercice_06
+author: Khachiaa hicham
+description: Contacts  manager
+dependencies:
+  browser: any
